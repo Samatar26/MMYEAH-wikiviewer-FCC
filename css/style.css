@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+border: 10px solid #add8e6; 
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  text-align: center;
+  padding: 20px;
+}
+
+#searchBar {
+  border: dotted 15px #000; 
+  background-color: #fff; 
+  border-radius: 40px;
+  display: block;
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+#searchButton {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#luckyButton{
+  display: block;
+  width: 8em;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center; 
+}
+
